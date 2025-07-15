@@ -1,8 +1,8 @@
-# Modern Data Pipeline: DBT + Airflow + Databricks
+# Modern Data ETL Pipeline: DBT + Airflow + Databricks
 
 A comprehensive data engineering project demonstrating modern data pipeline architecture using DBT Core, Apache Airflow, and Databricks SQL Serverless warehouse.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project showcases a complete data engineering workflow that:
 - Processes TPC-H sample data from Databricks
@@ -11,13 +11,13 @@ This project showcases a complete data engineering workflow that:
 - Leverages Databricks SQL Serverless for computation
 - Demonstrates staging, fact tables, and data marts architecture
 
-## 🏗️ Architecture
+## Architecture
 
 *[Architecture diagram placeholder - will be added]*
 
-## 📋 Features
+## Features
 
-### ✅ Completed Implementation
+### Completed Implementation
 1. **Databricks Configuration** - Catalog and schema setup
 2. **DBT Project Configuration** - Complete dbt_project.yml setup
 3. **Staging and Source Models** - Raw data ingestion and cleaning
@@ -26,14 +26,14 @@ This project showcases a complete data engineering workflow that:
 6. **Generic and Singular Tests** - Data quality validation
 7. **Airflow Orchestration** - Automated pipeline execution
 
-### 🔧 Technical Stack
+### Technical Stack
 - **Data Warehouse**: Databricks SQL Serverless
 - **Data Modeling**: DBT Core
 - **Orchestration**: Apache Airflow (Astro Runtime)
 - **Data Source**: Databricks TPC-H Sample Dataset
 - **Infrastructure**: Docker containers
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ Before running this project, ensure you have:
 
 #### Databricks Connection Setup
 
-**⚠️ Important**: You must manually configure the Databricks connection in Airflow UI:
+**Important**: You must manually configure the Databricks connection in Airflow UI:
 
 1. Go to **Admin** → **Connections**
 2. Click **+ Add a new record**
@@ -99,7 +99,7 @@ DATABRICKS_CATALOG=your_catalog
 DATABRICKS_SCHEMA=your_schema
 ```
 
-## 📊 Data Pipeline Overview
+## Data Pipeline Overview
 
 ### Data Flow
 
@@ -141,7 +141,7 @@ models/
 - **Product Performance**: Product sales metrics and trends
 - **Supplier Analysis**: Supplier performance and delivery metrics
 
-## 🔍 DBT Features Implemented
+## DBT Features Implemented
 
 ### Macros
 Custom macros for:
@@ -159,7 +159,7 @@ Custom macros for:
 - Column descriptions and business logic
 - Lineage tracking and dependencies
 
-## 📈 Monitoring and Observability
+## Monitoring and Observability
 
 ### Airflow Monitoring
 - DAG execution tracking
@@ -170,4 +170,3 @@ Custom macros for:
 - Automated data quality checks
 - Test results in Airflow UI
 - Failure handling and alerting
-
