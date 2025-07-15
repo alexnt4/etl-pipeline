@@ -4,16 +4,14 @@ A comprehensive data engineering project demonstrating modern data pipeline arch
 
 ## Project Overview
 
+![overview](docs/images/over.png)
+
 This project showcases a complete data engineering workflow that:
 - Processes TPC-H sample data from Databricks
 - Implements data modeling using DBT Core
 - Orchestrates pipelines with Apache Airflow
 - Leverages Databricks SQL Serverless for computation
 - Demonstrates staging, fact tables, and data marts architecture
-
-## Architecture
-
-*[Architecture diagram placeholder - will be added]*
 
 ## Features
 
